@@ -3,6 +3,7 @@
 // import MuiBreadcrumbs from './components/MuiBreadcrumbs'
 // import MuiLink from './components/MuiLink'
 import MuiNavbar from './components/MuiNavbar'
+import MuiSkeleton from './components/MuiSkeleton'
 // import MuiProgress from './components/Muiprogress'
 // import MuiSnackbar from './components/MuiSnackbar'
 // import MuiTable from './components/MuiTable'
@@ -29,6 +30,7 @@ const App = () => {
       {/* <MuiTable /> */}
       {/* <MuiSnackbar /> */}
       {/* <MuiProgress /> */}
+      <MuiSkeleton />
     </div>
   )
 }
