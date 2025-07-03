@@ -1,8 +1,9 @@
 // import MuiTypography from "./components/MuiTypography"
 // import './App.css'
-import MuiBreadcrumbs from './components/MuiBreadcrumbs'
+// import MuiBreadcrumbs from './components/MuiBreadcrumbs'
 // import MuiLink from './components/MuiLink'
 import MuiNavbar from './components/MuiNavbar'
+import MuiTable from './components/MuiTable'
 // import MuiAutocomplete from './components/MuiAutocomplete'
 // import MuiCheckBox from './components/MuiCheckBox'
 // import MuiRadio from './components/MuiRadio'
@@ -22,7 +23,8 @@ const App = () => {
       {/* <MuiAutocomplete /> */}
       <MuiNavbar /> {/* Menu also included here */}
       {/* <MuiLink /> */}
-      <MuiBreadcrumbs />
+      {/* <MuiBreadcrumbs /> */}
+      <MuiTable />
     </div>
   )
 }
