@@ -3,7 +3,7 @@ import { useState } from "react"
 
 const MuiSnackbar = () => {
     const [open, setOpen] = useState(false);
-    const handleClose = (event?: React.SyntheticEvent | Event, reason?: string) => {
+    const handleClose = (_event?: React.SyntheticEvent | Event, reason?: string) => {
         if (reason === 'clickaway') {
             return
         } else {
